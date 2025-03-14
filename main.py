@@ -4,7 +4,7 @@ import random
 class App(Tk):
     def __init__(self):
         Tk.__init__(self)
-        self.geometry("600x600")
+        self.geometry("800x800")
         self.theCanvas = Canvas(self, width=800,height=800, bg="#AAAAFF") # The canvas will fill our window
         self.theCanvas.grid(row=1, column=0)                              # We will use it for all our interface
         
